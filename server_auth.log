@@ -1,0 +1,18 @@
+May 19 10:01:22 server sshd[102]: Accepted password for admin from 192.168.1.50
+May 19 10:03:45 server vsftpd[104]: CONNECT: Client "192.168.1.55"
+May 19 10:03:50 server vsftpd[104]: FTP login failure for user 'anonymous' from 192.168.1.55
+May 19 10:05:14 server sshd[105]: Failed password for root from 203.0.113.42 port 49152 ssh2
+May 19 10:05:16 server sshd[105]: Failed password for root from 203.0.113.42 port 49153 ssh2
+May 19 10:05:18 server sshd[105]: Failed password for root from 203.0.113.42 port 49154 ssh2
+May 19 10:05:20 server sshd[105]: Failed password for root from 203.0.113.42 port 49155 ssh2
+May 19 10:08:12 server apache2[201]: 198.51.100.12 - - [19/May/2026:10:08:12] "GET /admin/login.php HTTP/1.1" 404 210
+May 19 10:08:14 server apache2[201]: 198.51.100.12 - - [19/May/2026:10:08:14] "GET /config.php HTTP/1.1" 404 210
+May 19 10:08:15 server apache2[201]: 198.51.100.12 - - [19/May/2026:10:08:15] "GET /wp-admin HTTP/1.1" 404 210
+May 19 10:15:33 server sshd[110]: Accepted password for user from 10.0.0.15 port 51221 ssh2
+May 19 10:22:11 server sshd[112]: Failed password for admin from 198.51.100.7 port 38221 ssh2
+May 19 10:30:01 server cron[312]: (root) CMD ( /usr/local/bin/cleanup_logs.sh > /dev/null 2>&1)
+May 19 10:45:00 server sshd[115]: Failed password for invalid user ubuntu from 185.220.101.5 port 41122 ssh2
+May 19 10:45:02 server sshd[115]: Failed password for invalid user admin from 185.220.101.5 port 41124 ssh2
+May 19 10:45:05 server sshd[115]: Failed password for invalid user support from 185.220.101.5 port 41126 ssh2
+May 19 10:50:18 server vsftpd[120]: CONNECT: Client "192.168.1.99"
+May 19 10:50:22 server vsftpd[120]: FTP login success for user 'backup_user' from 192.168.1.99
